@@ -66,3 +66,25 @@ C:\Users\hien0\Desktop\Project Oracle\ATBM\obj\Debug\ATBM.pdb
 C:\Users\hien0\Desktop\Project Oracle\ATBM\obj\Debug\ATBM.F_view_privileges_role.resources
 C:\Users\hien0\Desktop\Project Oracle\ATBM\obj\Debug\ATBM.F_manage_privileges_user.resources
 C:\Users\hien0\Desktop\Project Oracle\ATBM\obj\Debug\ATBM.F_manage_privileges_role.resources
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\bin\Debug\ATBM.exe.config
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\bin\Debug\ATBM.exe
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\bin\Debug\ATBM.pdb
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.csproj.AssemblyReference.cache
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.csproj.SuggestedBindingRedirects.cache
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.F_manage_privileges_role.resources
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.F_manage_privileges_user.resources
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.F_Manage_Role.resources
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.F_admin_menu.resources
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.F_login.resources
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.F_Manage_User_Account.resources
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.F_view_list_user.resources
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.F_view_privileges_role.resources
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.F_view_privileges_user.resources
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.Properties.Resources.resources
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.csproj.GenerateResource.cache
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.csproj.CoreCompileInputs.cache
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.exe
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.pdb
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.F_privileges_table_user.resources
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.F_grant_role_to_user.resources
+C:\Users\hien0\Desktop\ATBM_DOAN\ATBM\obj\Debug\ATBM.F_privileges_table_role.resources

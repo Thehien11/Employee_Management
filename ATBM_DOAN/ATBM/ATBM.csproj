@@ -47,6 +47,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="F_grant_role_to_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_grant_role_to_user.Designer.cs">
+      <DependentUpon>F_grant_role_to_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_privileges_table_role.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_privileges_table_role.Designer.cs">
+      <DependentUpon>F_privileges_table_role.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_privileges_table_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_privileges_table_user.Designer.cs">
+      <DependentUpon>F_privileges_table_user.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_manage_privileges_role.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +121,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="F_grant_role_to_user.resx">
+      <DependentUpon>F_grant_role_to_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_privileges_table_role.resx">
+      <DependentUpon>F_privileges_table_role.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_manage_privileges_role.resx">
       <DependentUpon>F_manage_privileges_role.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="F_Manage_User_Account.resx">
       <DependentUpon>F_Manage_User_Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_privileges_table_user.resx">
+      <DependentUpon>F_privileges_table_user.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_view_list_user.resx">
       <DependentUpon>F_view_list_user.cs</DependentUpon>

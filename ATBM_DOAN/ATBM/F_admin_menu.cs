@@ -93,5 +93,26 @@ namespace ATBM
             f.Show();
             this.Hide();
         }
+
+        private void cấpRoleChoUserToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_privileges_table_user f = new F_privileges_table_user();
+            f.Show();
+            this.Hide();
+        }
+
+        private void quảnLýQuyềnTrênBảngChoRoelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_privileges_table_role f = new F_privileges_table_role();
+            f.Show();
+            this.Hide();
+        }
+
+        private void cấpRoleChoUserToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            F_grant_role_to_user f = new F_grant_role_to_user();
+            f.Show();
+            this.Hide();
+        }
     }
 }
