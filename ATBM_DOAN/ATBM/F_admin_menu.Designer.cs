@@ -37,11 +37,11 @@ namespace ATBM
             this.quảnLýQuyềnCủaUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cấpRoleChoUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cấpRoleChoUserToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýRoleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.xemThôngTinVềQuyềnCủaRoleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýRoleToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýCấpQuyềnChoRoleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cấpRoleChoUserToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýQuyềnTrênBảngChoRoelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -118,6 +118,13 @@ namespace ATBM
             this.cấpRoleChoUserToolStripMenuItem.Text = "Quản lý quyền trên bảng cho User";
             this.cấpRoleChoUserToolStripMenuItem.Click += new System.EventHandler(this.cấpRoleChoUserToolStripMenuItem_Click);
             // 
+            // cấpRoleChoUserToolStripMenuItem1
+            // 
+            this.cấpRoleChoUserToolStripMenuItem1.Name = "cấpRoleChoUserToolStripMenuItem1";
+            this.cấpRoleChoUserToolStripMenuItem1.Size = new System.Drawing.Size(315, 26);
+            this.cấpRoleChoUserToolStripMenuItem1.Text = "Cấp Role cho User";
+            this.cấpRoleChoUserToolStripMenuItem1.Click += new System.EventHandler(this.cấpRoleChoUserToolStripMenuItem1_Click);
+            // 
             // quảnLýRoleToolStripMenuItem
             // 
             this.quảnLýRoleToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -126,7 +133,7 @@ namespace ATBM
             this.quảnLýCấpQuyềnChoRoleToolStripMenuItem,
             this.quảnLýQuyềnTrênBảngChoRoelToolStripMenuItem});
             this.quảnLýRoleToolStripMenuItem.Name = "quảnLýRoleToolStripMenuItem";
-            this.quảnLýRoleToolStripMenuItem.Size = new System.Drawing.Size(109, 26);
+            this.quảnLýRoleToolStripMenuItem.Size = new System.Drawing.Size(109, 24);
             this.quảnLýRoleToolStripMenuItem.Text = "Quản Lý Role";
             // 
             // xemThôngTinVềQuyềnCủaRoleToolStripMenuItem
@@ -149,13 +156,6 @@ namespace ATBM
             this.quảnLýCấpQuyềnChoRoleToolStripMenuItem.Size = new System.Drawing.Size(316, 26);
             this.quảnLýCấpQuyềnChoRoleToolStripMenuItem.Text = "Quản lý quyền hệ thống cho Role";
             this.quảnLýCấpQuyềnChoRoleToolStripMenuItem.Click += new System.EventHandler(this.quảnLýCấpQuyềnChoRoleToolStripMenuItem_Click);
-            // 
-            // cấpRoleChoUserToolStripMenuItem1
-            // 
-            this.cấpRoleChoUserToolStripMenuItem1.Name = "cấpRoleChoUserToolStripMenuItem1";
-            this.cấpRoleChoUserToolStripMenuItem1.Size = new System.Drawing.Size(315, 26);
-            this.cấpRoleChoUserToolStripMenuItem1.Text = "Cấp Role cho User";
-            this.cấpRoleChoUserToolStripMenuItem1.Click += new System.EventHandler(this.cấpRoleChoUserToolStripMenuItem1_Click);
             // 
             // quảnLýQuyềnTrênBảngChoRoelToolStripMenuItem
             // 

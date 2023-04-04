@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.OracleClient;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,6 +18,8 @@ namespace ATBM
         {
             InitializeComponent();
         }
+        //public string _connectionString;
+        public string _connectionString;
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -60,10 +63,12 @@ namespace ATBM
         private void xemDanhSáchUserToolStripMenuItem_Click(object sender, EventArgs e)
         {
             // show list user tai day
-
             F_view_list_user f = new F_view_list_user();
+            f._connectionString = _connectionString;
             f.Show();
+
             this.Hide();
+
         }
 
         private void xemThôngVềQuyềnCủaUserToolStripMenuItem_Click(object sender, EventArgs e)
@@ -113,6 +118,11 @@ namespace ATBM
             F_grant_role_to_user f = new F_grant_role_to_user();
             f.Show();
             this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

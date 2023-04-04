@@ -13,7 +13,7 @@ namespace ATBM
 {
     public partial class F_login : Form
     {
-        string connectionString;
+        public string connectionString;
         public F_login()
         {
             InitializeComponent();
@@ -23,8 +23,6 @@ namespace ATBM
         {
 
         }
-
-
 
         private void bt_Exit_Click(object sender, EventArgs e)
         {
@@ -40,6 +38,7 @@ namespace ATBM
                 OracleConnection con = new OracleConnection(@connectionString);
                 con.Open();
                 F_admin_menu f = new F_admin_menu();
+                f._connectionString = connectionString;
                 f.Show();
                 con.Close();
 
